@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/white-background-with-black-outlined-square-containing-two-blue-red-diamonds-surrounded-by-circles-crosses-stars_150234-149955.jpg?ga=GA1.1.984442540.1714043143&semt=ais_tags_boosted);
+}
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f4ebd9;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.game-container {
+    width: 450px;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #1c6cad;
+    box-shadow: 0 0 10px #040406, inset 0 0 20px #26089d;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    color: #f1f2ed;;
+}
